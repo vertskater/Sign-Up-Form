@@ -135,6 +135,9 @@ a:hover {
   display: inline-block;
   margin-top: 15px;
 }
+.form-container .error {
+  color: red;
+}
 
 @media (min-width: 768px) {
   .heading-container {
@@ -145,28 +148,12 @@ a:hover {
   .form-container {
     width: 70%;
     float: left;
-  }
-  .form-container form {
-    /* label {
-    }
-    input[type="text"],
-    input[type="email"],
-    input[type="tel"],
-    input[type="password"] {
-      width: 50%;
-      float: left;
-      display: block;
-      &::after {
-        content: "";
-        display: block;
-        clear: both;
-      }
-    } */
+    height: 100vh;
   }
   .form-container form .column-2 {
     width: 50%;
     float: left;
-    padding: 0 5px;
+    padding: 0 15px 0 0;
   }
   .form-container form::after {
     content: "";

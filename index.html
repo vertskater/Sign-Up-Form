@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="./main.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="style.min.css" />
     <title>Sign-Up Form</title>
   </head>
   <body>
@@ -44,16 +45,25 @@
           <div class="column-2">
             <label for="name">FIRST NAME</label>
             <input id="name" type="text" required />
-            <label for="email">EMAIL</label>
-            <input id="email" type="email" required />
-            <label for="password">PASSWORD</label>
-            <input id="password" type="password" required />
           </div>
           <div class="column-2">
             <label for="lastname">LAST NAME</label>
             <input id="lastname" type="text" required />
+          </div>
+          <div class="column-2">
             <label for="phone">PHONE NUMBER</label>
             <input id="phone" type="tel" required />
+          </div>
+          <div class="column-2">
+            <label for="email">EMAIL</label>
+            <input id="email" type="email" required />
+          </div>
+          <div class="column-2">
+            <label for="password">PASSWORD</label>
+            <input id="password" type="password" required />
+            <span class="error">test</span>
+          </div>
+          <div class="column-2">
             <label for="pass-conf">CONFIRM PASSWORD</label>
             <input id="pass-conf" type="password" required />
           </div>
